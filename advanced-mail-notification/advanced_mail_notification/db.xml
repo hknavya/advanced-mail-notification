@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="Rule">
+		<field name="ruleID" type="I">
+		<key ></key><autoincrement></autoincrement>
+		</field>
+		<field name="ruleName" type="X">
+		</field>
+		<field name="ruleEnabled" type="I">
+		</field>
+		<field name="pageAdded" type="X">
+		</field>
+		<field name="pageUpdated" type="X">
+		</field>
+		<field name="pageDeleted" type="X">
+		</field>
+		<field name="pageMoved" type="X">
+		</field>
+		<field name="pageDuplicated" type="X">
+		</field>
+		<field name="pageVersionApproved" type="X">
+		</field>
+		<field name="pageVersionAdded" type="X">
+		</field>
+		<field name="pageTypes" type="X">
+		</field>
+		<field name="pages" type="X">
+		</field>
+		<field name="notifyFor" type="X">
+		</field>
+		<field name="mailTo" type="X">
+		</field>
+		<field name="mailFrom" type="X">
+		</field>
+		<field name="mailSubject" type="X">
+		</field>
+		<field name="mailTemplate" type="X">
+		</field>
+	</table>
+</schema>
