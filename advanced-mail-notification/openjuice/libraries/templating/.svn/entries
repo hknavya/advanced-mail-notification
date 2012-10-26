@@ -1,42 +1,15 @@
 10
 
 dir
-1575
-https://open-juice.svn.beanstalkapp.com/kidsusa/trunk/packages/openjuice/libraries/templating
-https://open-juice.svn.beanstalkapp.com/kidsusa
+884
+https://open-juice.svn.beanstalkapp.com/jti/trunk/jti/packages/openjuice/libraries/templating
+https://open-juice.svn.beanstalkapp.com/jti
 
 
 
-2012-06-15T18:04:54.028710Z
-1389
-abhihebbar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a90ae7ed-794d-4046-9445-6cc8d4c85851
-
-mustache.php
-file
-
-
-
-
-2012-07-30T07:30:36.669707Z
-e99178d64e3e79fa7f90d32a04c50b6e
-2012-06-15T18:04:54.028710Z
-1389
-abhihebbar
+2012-10-26T10:44:08.788706Z
+884
+hknavya
 
 
 
@@ -51,27 +24,20 @@ abhihebbar
 
 
 
-
-
-
-
-
-
-
-26259
+d5a7910c-4b05-46a2-96c7-d2e600e15f5f
 
 renderable.php
 file
+885
 
 
 
-
-2012-07-30T07:30:36.669707Z
+2012-08-22T14:25:03.000000Z
 02678192a17b3ba539af7395191b0d61
-2012-06-15T18:04:54.028710Z
-1389
-abhihebbar
-
+2012-10-26T10:49:31.892129Z
+885
+hknavya
+has-props
 
 
 
@@ -93,4 +59,38 @@ abhihebbar
 
 
 853
+
+mustache.php
+file
+885
+
+
+
+2012-08-22T14:25:03.000000Z
+e99178d64e3e79fa7f90d32a04c50b6e
+2012-10-26T10:49:31.892129Z
+885
+hknavya
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+26259
 

@@ -10,12 +10,14 @@ class SelectField extends OJField{
 				$provider = new $className();
 				$this->values = $provider->getValues();
 			}
-			$values = array();
-			foreach (split(' ', $this->values) as $value) {
-				list($key,$val) = split('\|', $value);
-				$values[$key] = $val;
+			else{
+				$values = array();
+				foreach (split(' ', $this->values) as $value) {
+					list($key,$val) = split('\|', $value);
+					$values[$key] = $val;
+				}
+				$this->values = $values;
 			}
-			$this->values = $values;
 		}elseif(!is_array($this->values)){
 			$this->values = array('0' => '- Select -');
 		}

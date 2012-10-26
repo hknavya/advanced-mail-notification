@@ -9,13 +9,14 @@ class MultiCheckBoxField extends OJField{
 				$className = $this->values;
 				$provider = new $className();
 				$this->values = $provider->getValues();
+			}else{
+				$values = array();
+				foreach (split(' ', $this->values) as $value) {
+					list($key,$val) = split('\|', $value);
+					$values[$key] = $val;
+				}
+				$this->values = $values;	
 			}
-			$values = array();
-			foreach (split(' ', $this->values) as $value) {
-				list($key,$val) = split('\|', $value);
-				$values[$key] = $val;
-			}
-			$this->values = $values;
 		}elseif(!is_array($this->values)){
 			$this->values = array('0' => '- Select -');
 		}

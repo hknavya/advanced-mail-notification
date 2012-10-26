@@ -1,17 +1,17 @@
 K 25
 svn:wc:ra_dav:version-url
-V 68
-/kidsusa/!svn/ver/1389/trunk/packages/openjuice/libraries/templating
+V 67
+/jti/!svn/ver/884/trunk/jti/packages/openjuice/libraries/templating
 END
 mustache.php
 K 25
 svn:wc:ra_dav:version-url
-V 81
-/kidsusa/!svn/ver/1389/trunk/packages/openjuice/libraries/templating/mustache.php
+V 80
+/jti/!svn/ver/885/trunk/jti/packages/openjuice/libraries/templating/mustache.php
 END
 renderable.php
 K 25
 svn:wc:ra_dav:version-url
-V 83
-/kidsusa/!svn/ver/1389/trunk/packages/openjuice/libraries/templating/renderable.php
+V 82
+/jti/!svn/ver/885/trunk/jti/packages/openjuice/libraries/templating/renderable.php
 END

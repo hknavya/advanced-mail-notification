@@ -29,6 +29,10 @@ class AdvancedMailNotificationPackage extends Package {
 	}
 
 	public function on_start() {
+		$start = microtime(true);
+		$u = new User();
+		if($u->isSuperUser() && NO_ALERTS_FOR_ADMIN)
+			return;
 		Loader::model('advanced_mail','advanced_mail_notification');
 		$newRule = new Rule();
 		/*gets all the rule  data from database */
@@ -72,3 +76,4 @@ class AdvancedMailNotificationPackage extends Package {
 	}
 
 }
+
