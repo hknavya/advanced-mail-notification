@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jti/!svn/ver/837/trunk/jti/packages/advanced_mail_notification/controllers/dashboard/system/advanced_notification
+END
+notification_rule_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/jti/!svn/ver/837/trunk/jti/packages/advanced_mail_notification/controllers/dashboard/system/advanced_notification/notification_rule_list.php
+END
+add_notification_rule.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/jti/!svn/ver/837/trunk/jti/packages/advanced_mail_notification/controllers/dashboard/system/advanced_notification/add_notification_rule.php
+END

@@ -26,6 +26,8 @@
 		</field>
 		<field name="pages" type="X">
 		</field>
+		<field name="pagesBelow" type="I">
+		</field>
 		<field name="notifyFor" type="X">
 		</field>
 		<field name="mailTo" type="X">
