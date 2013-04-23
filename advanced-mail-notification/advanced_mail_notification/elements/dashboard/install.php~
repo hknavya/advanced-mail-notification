@@ -1,0 +1,3 @@
+<?php  defined('C5_EXECUTE') or die(_("Access Denied.")); ?>
+<p><?php echo t('Thanks for downloading this package. \'Advanced Mail Notification\' is a free add-on for concrete5 that sends email to the particular user when a page is updated,deleted,moved etc.');?></p>
+<p><?php echo t('Activated by default, please visit Systems &amp; Settings > Change Notifications  to manage your settings.');?></p>

@@ -1,9 +1,9 @@
 <?php
-/**
+/*
 Module Name : Rule model
 Description: model class for rule which extends model from 'openjuice package'.
 Author Name: Navya H.K
-**/
+*/
 /*loads openjuice model*/
 Loader::library('model','openjuice');
 class Rule extends OJModel
@@ -107,7 +107,7 @@ class Rule extends OJModel
 					'db_col'=>'mailSubject',
 					'label'=>'Subject',
 					'type'=>'text',
-					'template' => '<div class="well">Available tags are &#123;&#123;page_name&#125;&#125;,&#123;&#123;page_type&#125;&#125;,&#123;&#123;page_link&#125;&#125;,&#123;&#123;action&#125;&#125;,&#123;&#123;user_name&#125;&#125;,&#123;&#123;user_groups&#125;&#125;,&#123;&#123;date&#125;&#125;,&#123;&#123;time&#125;&#125;</div><div class="clearfix" {{parentAttrs}}><label for="{{fieldPrefix}}{{fieldName}}">{{label}}</label><div class="input input-xxlarge">{{{field}}}</div></div>'
+					'template' => '<div class="well">Available tags are &#123;&#123;page_name&#125;&#125;,&#123;&#123;version_comment&#125;&#125;,&#123;&#123;page_type&#125;&#125;,&#123;&#123;page_link&#125;&#125;,&#123;&#123;action&#125;&#125;,&#123;&#123;user_name&#125;&#125;,&#123;&#123;user_groups&#125;&#125;,&#123;&#123;date&#125;&#125;,&#123;&#123;time&#125;&#125;</div><div class="clearfix" {{parentAttrs}}><label for="{{fieldPrefix}}{{fieldName}}">{{label}}</label><div class="input input-xxlarge">{{{field}}}</div></div>'
 				),
 		'mailTemplate' => array(
 					'db_col'=>'mailTemplate',
@@ -135,7 +135,6 @@ class Rule extends OJModel
 		return $values;
 	}
 }
-
 class PageTypeProvider{
 	function getValues(){
 		$pageTypes = CollectionType::getList();

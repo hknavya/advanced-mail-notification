@@ -1,9 +1,9 @@
 <?php 
-/**
+/*
 Module Name : Model List controller
 Description: Creates new rule with the help of model class RULE
 Author Name: Navya H.K.
-**/
+*/
 Loader::library('controllers/model_list_controller','openjuice');
 Loader::model('advanced_mail','advanced_mail_notification');
 
